@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/KaramPortfolio/providers/Microsoft.ServiceLinker/linkers/ConnectionStrings_D804D2D9D1",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/karambank-server/databases/BankAppData",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:,",
+      "dynamicId": null
+    }
+  }
+}
